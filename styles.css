@@ -1,0 +1,56 @@
+html, body {
+    height: 100%;
+}
+
+#form {
+    position: fixed;
+    left: 50%;
+    transform: translate(-50%);
+}
+
+#search {
+    width: 300px;
+    height: 50px;
+    font-size: 25px;
+    border: 2px solid;
+    padding: 0 10px;
+}
+
+button {
+    width: 150px;
+    height: 50px;
+    font-size: 25px;
+    margin-left: 50px;
+}
+
+.list {
+    display: flex;
+    height: 100%;
+    align-items: center;
+    list-style: none;
+    overflow: hidden;
+}
+
+.video {
+    width: 280px;
+    margin: 20px;
+}
+img {
+  width: 280px;
+}
+.title {
+    text-align: center;
+    font-size: 22px;
+    color: black;
+    margin: 10px 0;
+}
+
+.description {
+    font-size: 16px;
+    color: #443c3c;
+}
+
+.duration {
+    font-size: 16px;
+    margin: 10px 0;
+}
